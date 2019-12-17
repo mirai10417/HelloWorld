@@ -14,7 +14,7 @@ public class BooleanExample {
 			System.out.println("참일 경우에");
 		
 		else
-			System.out.println("거짓일 경우에");System.out.print("END OF PROGRAM"); 
+			System.out.println("거짓일 경우에");System.out.print("REAL END"); 
 		}
 	}
 
