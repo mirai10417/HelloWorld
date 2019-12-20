@@ -5,7 +5,7 @@ public class ForMultiplicationTableExample {
 		
 		for (int n=1; n<=9; n++) 
 		{ 
-			System.out.println();
+			System.out.println(n);
 			for (int m=2; m<=9; m++) 
 			{				
 				System.out.print (m + "*" + n + "=" + (m*n) + "    ");
