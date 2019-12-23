@@ -17,3 +17,5 @@ public class ArrayExample {
 		System.out.println("intAry 0,2,4 더한값"+sum);
 	}				 
 }
+
+

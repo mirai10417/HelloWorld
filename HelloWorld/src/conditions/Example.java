@@ -10,11 +10,12 @@ public class Example {
 	}
 	
 		public static void exam07() {
-			int[] num = new int[5];
-			int size = num.length;
+			int[] score = new int[5];
+			int size = score.length;
 			boolean run = true;			
 			int balance = 0, menu = 0, amt = 0;			
 			Scanner scanner = new Scanner(System.in);
+			int sum=0;
 			
 			while(run) {
 				System.out.println("----------------------");
@@ -25,28 +26,17 @@ public class Example {
 				menu = scanner.nextInt();
 				scanner.nextLine();
 				
-				for(int i=0; i<5; i++) {
+				for(int i=0; i<score.length; i++) {
 				if(menu==1) {
 					System.out.println("입력하세요>");
-					num[i] = scanner.nextInt();
+					score[i] = scanner.nextInt();
 					amt = scanner.nextInt();
-					balance = num[i] + amt; 
+					balance = score[i] + amt;
+					sum=sum+score[i];					
 				}
-				 else if(menu==2) {
-					 menu = scanner.nextInt();
-					System.out.println(balance);					
-				}else if(menu==3) {
-					menu = scanner.nextInt();
-					System.out.println(balance/(double)size);
-				}else if(menu==4) {
-					run=false;
-				}
-				
-				
-			}
-			System.out.println("프로그램 종료");
-		}
+
 		}
 }
-	
+			}
+}
 	
