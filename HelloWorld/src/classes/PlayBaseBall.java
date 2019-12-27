@@ -85,7 +85,7 @@ public class PlayBaseBall {
 				System.out.println("1 스트라이크");
 				
 			}
-			System.out.println("꽝입니다.");
+//			System.out.println("꽝입니다.");
 		}
 		
 		break;
