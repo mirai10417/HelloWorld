@@ -34,7 +34,7 @@ public class UnivFriend extends Friend{
 
 	@Override
 	public String toString() {
-		return "UnivFriend [univ=" + univ + ", major=" + major + "]";
+		return "UnivFriend [name: " + super.getName() + ", phone: " + super.getPhone() + ", univ: " + univ + ", major: " + major + "]";
 	}
 	
 	@Override

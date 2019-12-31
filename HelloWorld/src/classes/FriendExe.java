@@ -68,7 +68,7 @@ public class FriendExe {
 				if(uf2[i]==null)
 				{
 					uf2[i] = uf;
-					friendArray[i] = uf2[i];
+//					friendArray[i] = uf2[i];
 					break;
 				}					
 			}			
@@ -94,7 +94,7 @@ public class FriendExe {
 				if(cf2[i]==null)
 				{
 					cf2[i] = cf;
-					friendArray[i] = cf2[i];
+//					friendArray[i] = cf2[i];
 					break;
 				}					
 			}		
@@ -133,22 +133,25 @@ public class FriendExe {
 				{
 					System.out.println("당신이 찾는 사람은");
 					System.out.println(friendArray[i]);
+					break;
 				}
 			}
-			else if(uf2[i] != null) 
+			if(uf2[i] != null) 
 			{
 				if(uf2[i].getName().equals(name))
 				{
 					System.out.println("당신이 찾는 사람은");
 					System.out.println(uf2[i]+" "+uf2[i].getName()+" "+uf2[i].getPhone());
+					break;
 				}
 			}
-			else if(cf2[i] != null)
+			 if(cf2[i] != null)
 			{
 				if(cf2[i].getName().equals(name))
 				{
 					System.out.println("당신이 찾는 사람은");
 					System.out.println(cf2[i]+" "+cf2[i].getName()+" "+cf2[i].getPhone());
+					break;
 				}	
 			}
 		}
@@ -159,9 +162,11 @@ public class FriendExe {
 		// 작성위치
 		for(int i=0; i<100; i++)
 		{
-			if(friendArray[i] != null){
+			if(friendArray[i] != null || uf2[i] != null || cf2[i] != null){
 			{			
 			System.out.println(friendArray[i]);
+			System.out.println(uf2[i]);
+			System.out.println(cf2[i]);
 			}
 		}
 	}

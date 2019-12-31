@@ -12,7 +12,7 @@ public class Friend {
 
 	public Friend() {
 		// TODO Auto-generated constructor stub
-	}
+	}      
 
 	public String getName() {
 		return name;

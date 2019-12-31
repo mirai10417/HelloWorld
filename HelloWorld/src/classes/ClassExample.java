@@ -18,7 +18,7 @@ public class ClassExample {
 		Friend[] fArray = new Friend[10];
 		fArray[0] = new UnivFriend("name", "나", "다", "라");
 
-		fArray[1] = new ComFriend("", "", "", "");
+//		fArray[1] = new ComFriend("", "", "", "");
 
 		System.out.println(fArray[0].getName());
 		System.out.println(fArray[0].getPhone());

@@ -2,7 +2,7 @@ package classes;
 
 public class ComFriend extends Friend{
 	private String company;
-	private String dept;
+	private String dept;                                                                                                                                                                                                          
 	
 	public ComFriend(String name, String phone, String company, String dept) {
 		super(name, phone);
@@ -32,7 +32,7 @@ public class ComFriend extends Friend{
 
 	@Override
 	public String toString() {
-		return "ComFriend [company=" + company + ", dept=" + dept + "]";
+		return "ComFriend [name: " + super.getName() + ", phone: " + super.getPhone() + ", company: " + company + ", dept: " + dept + "]";
 	}
 	
 	public void introduce() {
