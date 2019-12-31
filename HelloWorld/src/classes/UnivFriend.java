@@ -17,6 +17,8 @@ public class UnivFriend extends Friend{
 	public String getUniv() {
 		return univ;
 	}
+	
+	
 
 	public void setUniv(String univ) {
 		this.univ = univ;

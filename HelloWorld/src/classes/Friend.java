@@ -1,8 +1,8 @@
 package classes;
 
 public class Friend {
-	private static String name;
-	private static String phone;
+	private String name;
+	private String phone;
 	
 	public Friend(String name, String phone) {
 		super();
